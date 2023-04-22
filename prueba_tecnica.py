@@ -1,7 +1,7 @@
 def serie():
     valor = int (input("Introduce numero a calcular: "))
     resultado = fibonacci (valor)
-    print ("Su resultado en la serie Fibonacci es: " + str (resultado))
+    print ("Su resultado en la serie de Fibonacci es: " + str (resultado))
 
 def fibonacci(n):
     if n <= 1:
